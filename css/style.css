@@ -1,0 +1,1149 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    padding: 0;
+}
+
+header {
+    padding: 15px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    padding-top: 15px;
+}
+
+
+.container {
+    width: 1224px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.list_buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.list_buttons ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar_banner {
+    padding-left: 150px;
+}
+
+.bars{
+    display: none;
+}
+
+.bars div {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    display: none;
+}
+
+
+.row_buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.row_buttons img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.row_buttons_icons{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.row_buttons_icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.list_buttons ul li a {
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #1C1B1B;
+    font-family: 'Roboto';
+}
+
+.navbar_banner {
+    width: 80px;
+    height: 25px;
+}
+
+/* MAIN */
+
+.banner {
+    background: #F0EFEB;
+    height: 100%;
+
+
+}
+
+.row_about {
+    display: flex;
+}
+
+.left_side h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #1C1B1B;
+    margin-top: 90px;
+}
+
+.left_side h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+}
+
+.left_side p {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.left_side button:hover{
+    opacity: .9;
+}
+
+
+.left_side button {
+    text-transform: uppercase;
+    font-weight: lighter;
+    width: 150px;
+    padding: 15px 23px;
+    border: 0;
+    background: black;
+    margin-top: 26px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/* RIGHT SIDE */
+
+
+.right_side img {
+    width: 599px;
+    height: 521px;
+}
+
+/* GUIDES */
+
+.guides {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.guides h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.guides p {
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.guides h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 47px;
+
+}
+
+/* SELLERS */
+
+.sellers {
+    margin-top: 88px;
+    
+}
+
+
+
+.sellers h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.row_sellers {
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+
+.sellers_card {
+    text-align: center;
+
+}
+
+.sellers_card img {
+    width: 309px;
+    height: 422px;
+    margin-top: 52px;
+
+}
+
+.sellers_card h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 27px;
+}
+
+.sellers_card p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+.sellers_card h3 {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration-line: underline;
+}
+
+
+/* SPEECH */
+
+.banner_speech {
+    background: #CCCCCC4D;
+    margin-top: 150px;
+    height: 100%;
+}
+
+.row_speech {
+    display: flex;
+}
+
+.right_side_speech {
+    padding-left: 50px;
+    padding-top: 146px;
+    padding-bottom: 121px;
+}
+
+.left_side_speech img {
+    width: 385px;
+    height: 525px;
+    padding-top: 76px;
+
+}
+
+.right_side_speech h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.right_side_speech p {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+.right_side_speech h2 {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+}
+
+
+/* SPEECH2 */
+
+.banner_speech_two {
+    background: #CCCCCC99;
+    height: 100%;
+}
+
+.left_side_speech_two {
+    text-align: right;
+
+}
+
+.row_speech_two {
+    display: flex;
+
+}
+
+.left_side_speech_two {
+    padding-right: 70px;
+}
+
+.left_side_speech_two h1 {
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 168px;
+}
+
+.left_side_speech_two p {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.left_side_speech_two h2 {
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+}
+
+.right_side_speech_two img {
+    width: 385px;
+    height: 525px;
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+
+/* SPEECH3 */
+
+.banner_speech_three {
+    background: #CCCCCC4D;
+    height: 100%;
+}
+
+.row_speech_three {
+    display: flex;
+}
+
+.left_side_speech_three img {
+    width: 385px;
+    height: 525px;
+    padding-top: 76px;
+    padding-bottom: 51px;
+
+}
+
+.right_side_speech_three {
+    padding-top: 168px;
+    padding-left: 50px;
+}
+
+.right_side_speech_three h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.right_side_speech_three p {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.right_side_speech_three h2 {
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+}
+
+
+/* FEATURES */
+
+.features_title {
+    padding-top: 190px;
+    text-align: center;
+}
+
+.features_title h1 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.row_features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.card_features {
+    text-align: center;
+    padding-top: 69px;
+    width: 32%;
+
+}
+
+.card_features img {
+    width: 70px;
+    height: 70px;
+}
+
+.card_features h2 {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 26px;
+}
+
+/* SLOGAN */
+
+.slogan_title {
+    margin-top: 163px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.slogan_banner{
+    background: #F0F0F0;
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+.row_slogan{
+    display: flex;
+}
+
+.card_slogan{
+    width: 33%;
+    height: 350px;
+    position: relative;
+}
+
+.card_img{
+    text-align: center;
+    height: 200px;
+    
+}
+
+.card_img img{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    top: -50%;
+    left: 18%;
+    
+}
+
+.card_body{
+    text-align: center;
+}
+
+.card_body h1{
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+.card_body p{
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+.card_body h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 44px;
+    text-decoration-line:underline;
+}
+
+/* KEEP IN TOUCH */
+
+.touch_title {
+    text-align: center;
+    margin-top: 79px;
+}
+
+.touch_title h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.touch_title p {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.form input {
+    height: 39px;
+    background: #FFFFFF2E;
+    width: 153px;
+    color: white;
+    margin-top: 26px;
+
+}
+
+.email {
+    text-align: center;
+}
+
+.email input {
+    width: 366px;
+    height: 39px;
+    margin-top: 18px;
+    align-items: center;
+}
+
+.button {
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 98px;
+}
+
+.button button {
+    background: #000000;
+
+    border: 10;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 40px;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    background: #020202;
+    height: 100%;
+    margin-top: 98px;
+    padding: 50px 0;
+
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left{
+    margin-left: 20px;
+   margin-bottom: 80px;
+}
+
+.footer__icons{
+    display: flex;
+    gap: 23px;
+    margin-top: 40px;
+}
+
+
+.footer__right ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+.footer__right ul li:hover{
+    opacity: 1;
+}
+
+.footer__right ul h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+
+.footer__right {
+    display: flex;
+    gap: 128px;
+    
+}
+
+
+
+.footer__right ul{
+    line-height: 3;
+}
+
+.text_end{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text_end h1{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+/* MEDIA */
+
+
+@media  screen and (max-width:1024px) {
+    .container{
+        width: 85%;
+        margin: auto;
+    }
+
+    .left_side h1{
+        font-size: 40px;
+    }
+
+    .left_side h2{
+        font-size: 40px;
+    }
+
+    .left_side p{
+        font-size: 20px;
+    }
+
+    .right_side img{
+        width: 100%;
+       
+    }
+
+    .row_sellers{
+       gap: 40px;
+       align-items: center;
+    }
+
+    .sellers_card img{
+        width: 200px;
+        height: 250px;
+    }
+
+   .left_side_speech img{
+    margin-top: 80px;
+   }
+
+
+    .row_slogan img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .card_img img{
+        top: -30%;
+    }
+
+    .card_body{
+        padding-bottom: 50px;
+    }
+
+
+    .card_features img{
+        width: 40px;
+        height: 40px;
+    }
+   
+    .card_features h2{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .container{
+        width: 95%;
+    }
+
+    .row_about{
+        margin-left: 50px;
+    }
+
+    .list_buttons ul{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .bars div{
+        display: block;
+    }
+
+    .row_buttons{
+        display: none;
+    }
+
+    .navbar_banner{
+      padding-left: 5px;
+    }
+
+    .left_side h1{
+        font-size: 30px;
+    }
+
+    .left_side h2{
+        font-size: 30px;
+    }
+
+    .left_side p{
+        font-size: 15px;
+    }
+
+    .left_side button{
+        width: 70%;
+        height: 9%;
+    }
+
+    .right_side img{
+        width: 100%;
+       
+    }
+
+    
+    
+   
+       
+       
+    
+
+    .left_side_speech img{
+        width: 300px;
+        height: 350px;
+        margin-top: 100px;
+        padding-top: 20px;
+    }
+
+    
+
+    .right_side_speech h1{
+        font-size: 22px;
+        
+    }
+
+    .right_side_speech p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+
+
+    .left_side_speech_two h1{
+        font-size: 22px;
+    }
+
+    .left_side_speech_two p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .left_side_speech_two h2{
+        margin-top: 30px;
+    }
+
+    .right_side_speech_two img{
+        width: 300px;
+        height: 350px;
+        margin-top: 100px;
+        padding-top: 20px;
+        
+    }
+
+
+    .left_side_speech_three img{
+        width: 300px;
+        height: 350px;
+        margin-top: 80px;
+    }
+
+    .right_side_speech_three h1{
+        font-size: 22px;
+    }
+
+    .right_side_speech_three p{
+        font-size:20px ;
+    }
+
+    
+
+    .card_body h1{
+        font-size: 15px;
+    }
+
+    .card_body p{
+        font-size: 13px;
+    }
+
+
+
+}
+
+@media screen and (max-width:425px) {
+    
+    .banner{
+        padding-bottom: 50px;
+    }
+    
+    .left_side h1{
+        font-size: 25px;
+    }
+
+    .left_side h2{
+        font-size: 25px;
+    }
+
+
+    .left_side button{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+
+    }
+
+    .right_side{
+        padding-top: 90px;
+    }
+
+    .right_side img{
+        width: 200px;
+        height: 250px;
+    }
+
+
+
+    .sellers_card img{
+        width: 100px;
+        height: 150px;
+    }
+
+
+    .left_side_speech img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .right_side_speech h1{
+        font-size: 20px;
+    }
+
+    .right_side_speech p{
+        font-size: 14px;
+    }
+
+    .right_side_speech h2{
+        font-size: 15px;
+    }
+
+
+
+    .left_side_speech_two h1{
+        font-size: 20px;
+    }
+    
+    .left_side_speech_two p{
+        font-size: 14px;
+    }
+
+    .left_side_speech_two h2{
+        font-size: 15px;
+    }
+
+
+    .right_side_speech_two img{
+        width: 150px;
+        height: 200px;
+    }
+
+
+    .left_side_speech_three img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .right_side_speech_three h1{
+        font-size:20px;
+    }
+
+    .right_side_speech_three p{
+        font-size: 14px;
+    }
+
+    .right_side_speech_three h2{
+        font-size: 15px;
+    }
+
+
+
+    .features_title{
+        padding-top: 80px;
+    }
+
+    .features_title h1{
+        font-size: 30px;
+    }
+
+    .slogan_title{
+        margin-top: 120px;
+        margin-bottom: 180px;
+    }
+
+    .slogan_title h1{
+        font-size: 30px;
+    }
+
+
+    .slogan_banner{
+        padding-bottom: 10px;
+    }
+
+    .card_img{
+        height: 60px;
+    }
+
+    .card_img img{
+        width: 100px;
+        height: 150px;
+        top: -20%;
+    }
+
+    .row_slogan{
+        gap: 10px;
+    }
+
+    .card_body h1{
+        font-size: 12px;
+    }
+    
+    .footer{
+        padding-bottom: 25px;
+    }
+
+    .footer__right{
+        margin-left: 50px;
+    }
+
+    .footer__left img{
+        width: 100px;
+    }
+
+    .footer__icons img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer__right ul h2{
+        font-size: 10px;
+    }
+
+    .footer__right ul li{
+        font-size: 9px;
+    }
+
+    .text_end h1{
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .row_sellers{
+        flex-wrap: wrap;
+    }
+
+    .sellers_card img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .email input{
+        width: 250px;
+        height: 30px;
+    }
+
+    .footer__left img{
+        width: 70px;
+        height: 25px;
+    }
+
+    .footer__icons img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .footer__right{
+        gap: 10px;
+    }
+
+    .footer__right ul h2{
+        font-size: 9px;
+    }
+
+    .footer__right ul li{
+        font-size: 8px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:320px) {
+
+    .row_about{
+        margin-left: 10px;
+    }
+
+    .left_side button{
+        width: 100%;
+        height: 10%;
+    }
+
+    .right_side img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .guides h1{
+        font-size: 30px;
+    }
+
+    .guides p{
+        font-size:15px ;
+    }
+
+    .guides h2{
+        font-size: 15px;
+    }
+
+    .row_sellers{
+        flex-wrap: wrap;
+    }
+
+    .sellers_card img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .right_side_speech{
+       padding: 0;
+       padding-top: 110px;
+       padding-bottom: 20px;
+    }
+
+    .left_side_speech_two h1{
+        padding-top: 100px;
+    }
+
+    .left_side_speech_two{
+        padding: 0;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        
+    }
+
+    .right_side_speech_three{
+       padding: 0;
+       padding-top: 130px; 
+       padding-left:10px ;
+    }
+
+    .slogan_title{
+        margin: 150px 0;
+    }
+
+    .slogan_title h1{
+        font-size: 25px;
+    }
+
+    .card_img img{
+        width: 80px;
+        height: 130px;
+    }
+
+    .card_body h2{
+        font-size: 15px;
+    }
+
+    .touch_title h1{
+        font-size: 25px;
+    }
+
+    .form input{
+        width: 100px;
+        height: 30px;
+    }
+
+    .email input{
+        width: 250px;
+        height: 30px;
+    }
+
+
+    .footer__left img{
+        width: 70px;
+        height: 25px;
+    }
+
+    .footer__icons img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .footer__right{
+        gap: 10px;
+    }
+
+    .footer__right ul h2{
+        font-size: 9px;
+    }
+
+    .footer__right ul li{
+        font-size: 8px;
+    }
+
+}
